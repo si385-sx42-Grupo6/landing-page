@@ -5,9 +5,131 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Safetrip.com</title>
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="fs-2 navbar-brand text-success margin-title" aria-current="page" href="index.html">Safetrip</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="fs-5 nav-link margin-left-NavBar" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fs-5 nav-link margin-left-NavBar" href="#">Reservar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fs-5 nav-link margin-left-NavBar" href="#">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fs-5 nav-link margin-left-NavBar" href="#">Servicios</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-success margin-right-NavBar-Button" type="submit">log In</button>
+                    <button class="btn btn-success margin-right-NavBar-Button"  type="submit">Sign Up Free</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <div id="carouselExampleCaptions"  class="carousel slide margin-carrousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <img src="image/1.jpg" class="d-block w-100 margin-carrousel" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/2.jpg" class="d-block w-100 margin-carrousel" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/3.jpg" class="d-block w-100 margin-carrousel" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="card text-center margin-up-card">
+            <div class="card-body">
+                <h3 class="card-title text-success">Nuevos amigos en todo el mundo</h3>
+                <p class="card-text">Bienvenidos a la app de viajes donde encontraras personas con gustos similares, con las cuales podran armar planes juntos y viajar de manera nacional e internacional.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row justify-content-center margin-up-card-small text-center ">
+            <div class="col-sm-3 ">
+                <div class="card small-card-size">
+                    <div class="card-body">
+                        <img src="image/Proteccion.png" class="d-block w-100 margin-logo-small" alt="...">
+                        <h5 class="card-title text-success">Protección</h5>
+                        <p class="card-text">Su seguridad es proporcionada por el sistema anti-estafa líder en la industria.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card small-card-size">
+                    <div class="card-body">
+                        <img src="image/Verificacion.png" class="d-block w-100 margin-logo-small" alt="...">
+                        <h5 class="card-title text-success">Verificación</h5>
+                        <p class="card-text">Todos los miembros son confirmados personalmente por nuestro personal para demostrar que son reales.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card small-card-size">
+                    <div class="card-body">
+                        <img src="image/Comunicacion.png" class="d-block w-100 margin-logo-small" alt="...">
+                        <h5 class="card-title text-success">Comunicación</h5>
+                        <p class="card-text">Chatea, envía cartas, llama, comparte tus fotos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3" >
+                <div class="card small-card-size">
+                    <div class="card-body " >
+                        <img src="image/Atencion.png" class="d-block w-100 margin-logo-small" alt="...">
+                        <h5 class="card-title text-success">Atención</h5>
+                        <p class="card-text">Reciba mucha atención de miembros atractivos en línea.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
 
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
