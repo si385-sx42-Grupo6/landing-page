@@ -1,0 +1,51 @@
+.margin-carrousel{
+    height: 550px;
+    margin: 0px 20px 0px 18px;
+}
+
+.margin-title{
+    margin-left: 10px;
+}
+.margin-left-NavBar{
+    margin-left: 70px;
+}
+.margin-right-NavBar-Button{
+    margin-right: 10px;
+}
+.margin-up-card{
+    margin: 50px 120px 0px 120px;
+}
+.margin-up-card-small{
+    margin: 50px 110px 20px 120px;
+}
+.margin-logo-small{
+    margin: -70px 0px -60px 0px;
+}
+.small-card-size{
+    height: 270px; width: 240px;
+}
+
+.margin-image{
+    margin-left: 200px;
+        height: 700px; width: 350px;
+}
+.margin-text{
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.margin-text-1{
+    margin-left: 300px;
+}
+
+/* your CSS goes here*/
+
+.mdi-36px {
+    font-size: 39px;
+    margin-right:10px;
+}
+
+
+.container{
+
+    margin-top:150px;
+}
